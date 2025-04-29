@@ -17,6 +17,8 @@ thop>=0.1.1
 #had to bin torch and torchvision
 torch==2.2.2
 torchvision==0.17.2
+torchaudio==2.2.2
+scikit-image==0.23.2
 tqdm>=4.64.0
 # protobuf<=3.20.1
 
