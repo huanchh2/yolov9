@@ -5,7 +5,9 @@
 gitpython
 ipython
 matplotlib>=3.2.2
-numpy>=1.18.5
+#getting a module compiled using Numpy 1.x error, with pydind11>=2.12
+#numpy>=1.18.5
+numpy==1.64
 opencv-python>=4.1.1
 #needed to bein pillow due to https://github.com/tensorflow/models/issues/11040
 Pillow==9.5.0
